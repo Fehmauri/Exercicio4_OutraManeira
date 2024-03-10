@@ -22,15 +22,15 @@ public class Program
         {
             case 1:
                 tipoCarne = "File Duplo";
-                precoTotal = 4.90;
+                precoTotal = 5.80;
                 break;
             case 2:
                 tipoCarne = "Alcatra";
-                precoTotal = 5.90;
+                precoTotal = 6.80;
                 break;
             case 3:
                 tipoCarne = "Picanha";
-                precoTotal = 6.90;
+                precoTotal = 7.80;
                 break;
             default:
                 Console.WriteLine("Opção inválida!");
@@ -48,17 +48,17 @@ public class Program
         {
             if (tipoCarne == "File Duplo")
             {
-                precoTotal = 5.80;
+                precoTotal = 4.90;
                 precoTotal *= quantidadeCarne;
             }
             if (tipoCarne == "Alcatra")
             {
-                precoTotal = 6.80;
+                precoTotal = 5.90;
                 precoTotal *= quantidadeCarne;
             }
             if (tipoCarne == "Picanha")
             {
-                precoTotal = 7.80;
+                precoTotal = 6.90;
                 precoTotal *= quantidadeCarne;
             }
 
